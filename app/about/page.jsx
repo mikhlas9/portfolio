@@ -14,13 +14,13 @@ const AboutMe = () => {
             </div>
             <div className="md:w-2/3 md:pl-8">
               <p className="text-lg mb-4">
-                Hello! I'm Mohammad Ikhlas, a passionate Full Stack Developer currently studying at Central University of Kashmir. I specialize in creating dynamic web applications and have a strong background in technologies such as React, Next.js, Node.js, and MongoDB.
+                Hello! I&apos;m Mohammad Ikhlas, a passionate Full Stack Developer currently studying at Central University of Kashmir. I specialize in creating dynamic web applications and have a strong background in technologies such as React, Next.js, Node.js, and MongoDB.
               </p>
               <p className="text-lg mb-4">
                 I have worked on various projects, including building scalable web applications and integrating complex systems. My experience spans across both front-end and back-end development, and I enjoy solving challenging problems and exploring new technologies.
               </p>
               <p className="text-lg mb-4">
-                Outside of coding, I have a keen interest in Cricket. I am always eager to learn and grow, both personally and professionally, and I'm excited about the future of technology.
+                Outside of coding, I have a keen interest in Cricket. I am always eager to learn and grow, both personally and professionally, and I&apos;m excited about the future of technology.
               </p>
             </div>
           </div>

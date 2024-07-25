@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="flex flex-col items-center">
           <div className="mb-8 w-full max-w-lg md:max-w-[60vw]">
             <p className="text-lg mb-4 text-center">
-              I'd love to hear from you! Whether you have a question, want to collaborate on a project, or just want to say hello, feel free to reach out using the form below or through my contact information.
+              I&apos;d love to hear from you! Whether you have a question, want to collaborate on a project, or just want to say hello, feel free to reach out using the form below or through my contact information.
             </p>
             <ul className="list-none text-center">
               <li className="mb-4 flex justify-center items-center">

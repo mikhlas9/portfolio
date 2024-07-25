@@ -10,7 +10,7 @@ const Header = () => {
             <div className="container relative z-10  ">
                 <div className="flex justify-center">
                     <div className="w-full lg:w-2/3 text-white text-center mt-48">
-                    <h1 className="text-4xl lg:text-6xl font-bold mb-9">Hello, I'm</h1>
+                    <h1 className="text-4xl lg:text-6xl font-bold mb-9">Hello, I&apos;m</h1>
                     <Typewriter
                         onInit={(typewriter) => {
                             typewriter.typeString(`<h1 class="text-4xl lg:text-6xl font-bold mb-9" >Mohammad Ikhlas</h1>

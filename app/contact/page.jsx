@@ -1,3 +1,5 @@
+import { Icon } from "@iconify/react";
+
 const Contact = () => {
   return (
     <section id="contact" className="py-16 pt-24 text-white">
@@ -10,15 +12,12 @@ const Contact = () => {
             </p>
             <ul className="list-none text-center">
               <li className="mb-4 flex justify-center items-center">
-                <svg className="w-6 h-6 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 10h14v4H3z"></path>
-                </svg>
+              <Icon icon="ic:round-email" className="text-xl md:text-4xl mr-5" />
                 <a href="mailto:mohammadikhlas99@example.com" className="text-blue-600 hover:underline">mohammadikhlas99@example.com</a>
               </li>
               <li className="mb-4 flex justify-center items-center">
-                <svg className="w-6 h-6 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 10H7v4h8v-4zM6 6h12v12H6V6z"></path>
-                </svg>
+              <Icon icon="ic:round-phone" className="text-xl md:text-4xl mr-5" />
+
                 <a href="tel:+1234567890" className="text-blue-600 hover:underline">+91 9906610175</a>
               </li>
             </ul>

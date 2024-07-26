@@ -2,6 +2,7 @@
 "use client"
 import Typewriter from "typewriter-effect";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa';
+// import cv from "@/public/documents/Ikhlas-Resume.pdf";
 
 const Header = () => {
     return (

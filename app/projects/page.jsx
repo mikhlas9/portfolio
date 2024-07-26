@@ -1,5 +1,8 @@
 'use client'
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
+import image1 from "@/public/images/memorysphere.png";
+import image2 from "@/public/images/ecomerce-api.png";
 
 const projects = [
   {
@@ -7,14 +10,14 @@ const projects = [
     description: 'Memory Sphere is an interactive MCQ platform for students, offering a vast question bank and customizable time limits. Developed with React and Node.js, it provides performance insights to track progress and improve skills.',
     technologies: ['React', 'Node.js', 'MongoDB'],
     link: 'https://memorysphere.vercel.app',
-    image: '/images/memorysphere.png' // Replace with actual image path
+    image: image1 // Correct image path
   },
   {
     title: 'E-commerce API',
     description: 'This API offers endpoints for managing user accounts, categories, products, shopping carts, and orders in an e-commerce platform. Developed with Node.js and documented using Swagger, it provides a comprehensive solution for seamless e-commerce operations.',
     technologies: ['Node.js', 'Swagger'],
     link: 'https://github.com/mikhlas9/E-commerce-api',
-    image: '/path/to/ecommerce-image.jpg' // Replace with actual image path
+    image: image2 // Correct image path
   },
   // Add more projects as needed
 ];
@@ -62,7 +65,7 @@ const Projects = () => {
               }`}
             >
               <div className="w-full md:w-1/2 p-4">
-                <img src={project.image} alt={project.title} className="rounded-lg w-full h-auto mb-4 md:mb-0" />
+                <Image src={project.image} alt={project.title} className="rounded-lg w-full h-40 mb-4 md:mb-0" />
               </div>
               <div className="w-full md:w-1/2 p-4">
                 <h3 className="text-lg sm:text-xl font-semibold mb-2">{project.title}</h3>

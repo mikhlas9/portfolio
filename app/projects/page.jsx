@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import image1 from "@/public/images/memorysphere.png";
 import image2 from "@/public/images/ecomerce-api.png";
+import image3 from "@/public/images/tictactoe.png";
 
 const projects = [
   {
@@ -19,6 +20,14 @@ const projects = [
     link: 'https://github.com/mikhlas9/E-commerce-api',
     image: image2 // Correct image path
   },
+  {
+    title: 'TIC TAC TOE',
+    description: 'A fun and interactive Tic Tac Toe game where two players can enter their names and compete. The game announces the winner, providing an engaging experience for all ages.',
+    technologies: ['HTML', 'CSS', 'Javascript'],
+    link: 'https://mikhlas9.github.io/tictactoe/',
+    image: image3 // Correct image path
+  },
+  
   // Add more projects as needed
 ];
 
